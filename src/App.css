@@ -1,0 +1,68 @@
+#root {
+  max-width: 1280px;
+  margin: 1px;
+  margin-top: 1px;
+  padding: 2rem;
+}
+
+h1 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  margin-top: 0px;
+  padding-top: 0px;
+  font-family: "Times New Roman", Times, serif;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  font-family: "Times New Roman", Times, serif;
+}
+
+li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid #797979;
+  border-radius: 5px;
+  margin-bottom: 0.5rem;
+  padding: 0.5rem;
+}
+
+span {
+  flex-grow: 1;
+  text-align: left;
+  padding: 0.5rem;
+}
+
+.rödKnapp {
+  background-color: #f44336;
+  color: white;
+  border: none;
+  padding: 0.5rem;
+  cursor: pointer;
+}
+
+.grönKnapp {
+  background-color: #3bbd39;
+  color: white;
+  border: none;
+  padding: 0.5rem;
+  cursor: pointer;
+}
+
+.grönKnapp:hover {
+  background-color: #296010;
+}
+
+.rödKnapp:hover {
+  background-color: #6d1f1f;
+}
+
+button + button {
+  margin-left: 0.5rem;
+}
+
+li:hover {
+  background-color: #f0f0f0;
+}
